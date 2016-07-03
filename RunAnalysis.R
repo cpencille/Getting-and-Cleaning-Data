@@ -44,6 +44,11 @@ run_analysis<- function(){
     ##Combine activities, Subjects, and Features data into one data frame
     all_data<-cbind(features_data,all_activities,all_subject)
     
+
+    ##summarize data
+    all_data_col<-group_by(all_data,Subject,Activity)
+    all_data<-summarise_each(all_data_col,funs(mean))
+    
     ##Reorder by subject and Activity
     all_data<-all_data[order(all_data$Subject,all_data$Activity),]
     
