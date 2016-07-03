@@ -51,5 +51,5 @@ run_analysis<- function(){
     all_data<-all_data[,c(68,67,1:66)]
     
     ##create the final output data
-    write.table(all_data,file = "Tidy_data.txt")
+    write.table(all_data,file = "Tidy_data.txt",row.names = FALSE)
 }
