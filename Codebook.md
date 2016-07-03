@@ -1,8 +1,8 @@
 ##Summary
 1) 180 rows including 30 subjects in 6 activities
 2) 68 columns
-3) Each row represents an observation for 66 means by activity
-4) Only the mean and std columns were used int he analysis
+3) Each row represents an observation for the mean by activity
+4) Only the mean and std columns were used in the analysis
 
 ##Variables and Units
 1) First column is the subject and can hold a value between 1 and 30 (subjects)
@@ -13,7 +13,7 @@
     d) WALKING
     e) WALKING DOWNSTAIRS
     f) WALKING UPSTAIRS
-3) Clomuns 3 through 68 are the means and standard deviations from the raw data
+3) Columns 3 through 68 are the means and standard deviations from the raw data
 
 ##Columns
 1) Subject

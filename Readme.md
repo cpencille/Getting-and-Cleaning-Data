@@ -16,6 +16,7 @@ This is the assignment for the Getting and Cleaning Data course in Coursera's Da
 
 ## R Info and Libraries needed
 library(plyr) - needed for join()
+library(dplyr) - needed for summary items
 
 R version 3.2.5 (2016-04-14)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
